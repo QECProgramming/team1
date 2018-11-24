@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Andada|Permanent+Marker|Raleway:300');
+* {
+ box-sizing: border-box;
+}
+
+body {
+  background: #FF851B;
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+  padding: 25px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+#welcome {
+  /* padding: 25px 0 0; */
+}
+
+.welcome {
+  margin: 0 auto 25px;
+  min-width: 360px;
+  text-align: center;
+  font-size: 3em;
+}
+
+.get-input {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.address, .radius {
+  position: relative;
+  display: inline-block;
+}
+
+.address {
+  width: calc(100% - 130px);
+}
+
+.radius {
+  width: 125px;
+}
+
+.submit {
+  box-shadow: none;
+  color: white;
+  /* background-color: #FF4136; */
+  background-color: #32CD32;
+  border: none;
+  padding: 5px 2em;
+  border-radius: 0.4em;
+  font-size: 1em;
+}
+
+.submit:hover {
+  /* background-color: #800600; */
+  background-color: #508000;
+}
+
+#submit-pizzas {
+  width: 80%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.button-holder {
+  margin: 15px auto;
+  width: min-content;
+}
+
+#new-pizza {
+  width: 80%;
+  text-align: center;
+  border-radius: 0.4em;
+  font-size: 1em;
+  background-color: #FF4136;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+#new-pizza:hover {
+  background-color: #800600;
+}
+
+.prices {
+  width: 80%;
+  margin: auto;
+}
+
+.location {
+  color: black;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px auto;
+}
+
+.total span {
+  color: #508000;
+  font-weight: 800;
+}
+
+.name {
+  color: #800600;
+  font-weight: 800;
+  font-size: 1.5em;
+}
+
+/* Used code */
+
+/* Author
+Nick Salloum
+September 27, 2017 */
+/* START */
+.Input-text {
+  display: block;
+  margin: 0;
+  padding: 5px;
+  color: black;
+  width: 100%;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: inherit;
+  line-height: initial;
+  border: none;
+  border-radius: 0.4em;
+  transition: box-shadow 1s;
+  margin: 0 0 5px;
+}
+
+.Input-text::placeholder {
+  color: #000000cc;
+}
+/* END */

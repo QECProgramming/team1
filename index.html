@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="search.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Save that dough.</title>
+  </head>
+  <body>
+    <section id="welcome">
+      <div class="welcome">Save that dough.</div>
+      <div class="get-input">
+        <div class="address">
+          <input class="Input-text" id="address" type="text" name="address" placeholder="Enter your address">
+        </div>
+        <div class="radius">
+          <input class="Input-text" id="radius" type="number" name="radius" placeholder="Distance (km)">
+        </div>
+        <div class="button-holder">
+          <button id="save-that-dough" class="submit">Go!</button>
+        </div>
+      </div>
+    </section>
+    <section id="details" style="display: none;">
+      <div class="welcome">What kind of pizza are you looking for?</div>
+      <div class="get-input pizza" number="1">
+        <p>Pizza 1</p>
+        <div class="size">
+          <input class="Input-text" placeholder="What size is this pizza? (Small, Medium, Large)" id="size-dropdown">
+        </div>
+        <div class="toppings">
+          <input class="Input-text" placeholder="How many toppings?" type="number" id="topping-number">
+        </div>
+      </div>
+      <div id="new-pizza">+</div>
+      <div id="submit-pizzas" class="submit">All done!</div>
+    </section>
+    <section id="searching" style="display: none;">
+      <div class="welcome">
+        Searching for your 'za...
+      </div>
+    </section>
+    <section id="results" style="display: none;">
+      <div class="welcome">
+        Here are your results!
+      </div>
+      <div class="prices">
+
+      </div>
+
+    </section>
+  </body>
+</html>
